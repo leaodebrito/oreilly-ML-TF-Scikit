@@ -12,7 +12,11 @@ Projeto de ponta a ponta para simular o processo de análise de dados e treiname
 8. Lançar, Monitorar e manter o sistema
 
 ## Olhar Geral sobre o projeto
-Construir um modelo de preço do setor imobiliário utilizando os dados do censo do estado da califórnia. Os dados tem como métricas a população, a renda média, o preço médio do setor imobiliário e mais. **O modelo deve aprender com os dados obtidos e ser capaz de prever o preço médio em qualquer baieeo, considerando todas as outras métricas.**
+Construir um modelo de preço do setor imobiliário utilizando os dados do censo do estado da califórnia. Os dados tem como métricas a população, a renda média, o preço médio do setor imobiliário e mais. **O modelo deve aprender com os dados obtidos e ser capaz de prever o preço médio em qualquer bairro, considerando todas as outras métricas.**
+
+Dados: [https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.csv](https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.csv)
+
+Repositório: [Handson ML - Ageron](https://github.com/ageron/handson-ml/tree/master/datasets/housing)
 
 ## Enquadramento do problema
 As perguntas abaixo precisam ser respondidas para ajudar a direcionar o desenvolvimento do modelo de ML.
