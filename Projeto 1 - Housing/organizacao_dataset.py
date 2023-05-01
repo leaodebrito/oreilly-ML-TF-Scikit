@@ -1,6 +1,8 @@
 # Autor: Bruno Leão de Brito
 # Data: 2023-05-01
 
+# Objetivo: Organização de dataset para treinamento de modelos de machine learning
+
 # Importando bibliotecas
 import pandas as pd
 import numpy as np
@@ -9,6 +11,9 @@ import sklearn  as sk
 #Importando arquivos locais
 file_path = 'Projeto 1 - Housing/datasets/housing.csv'
 housing = pd.read_csv(file_path, sep=',')
+
+#criação de identificador único para cada linha
+housing['id'] = housing['longitude'] * 1000 + housing['latitude']
 
 #Separando o dataset em treino e teste
 from sklearn.model_selection import train_test_split

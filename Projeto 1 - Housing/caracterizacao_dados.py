@@ -1,6 +1,8 @@
 # Autor: Bruno Leão de Brito
 # Data: 2023-05-01
 
+# Objetivo: Caracterização de dados do dataset
+
 # Importando bibliotecas
 import pandas as pd
 import numpy
