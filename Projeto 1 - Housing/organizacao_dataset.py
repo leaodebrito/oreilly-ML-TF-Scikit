@@ -7,6 +7,8 @@
 import pandas as pd
 import numpy as np
 import sklearn  as sk
+from sklearn.model_selection import train_test_split
+
 
 #Importando arquivos locais
 file_path = 'Projeto 1 - Housing/datasets/housing.csv'
@@ -16,7 +18,6 @@ housing = pd.read_csv(file_path, sep=',')
 housing['id'] = housing['longitude'] * 1000 + housing['latitude']
 
 #Separando o dataset em treino e teste
-from sklearn.model_selection import train_test_split
 train_set, test_set = train_test_split(housing, test_size = 0.2, random_state=42)
 
 print(train_set.head())
